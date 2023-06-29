@@ -80,33 +80,6 @@ video {
   margin-inline: auto;
   width: 400px;
 }
-.form-newsletter {
-  background-color: #eaeaec;
-  margin-block: 30px;
-  padding-block: 20px;
-  text-align: center;
-}
-.form-newsletter h4 {
-  text-align: center;
-  color: #303032;
-  font-variant: all-small-caps;
-  font-size: 40px;
-  margin-bottom: 30px;
-}
-#email {
-  border-width: 0;
-  border-bottom-width: 1px;
-  border-bottom-style: dashed;
-  border-bottom-color: black;
-  padding: 5px;
-}
-button {
-  background-color: #376cbc;
-  color: white;
-  font-weight: bold;
-  border-width: 0;
-  padding: 5px;
-}
 .area-correlati h3 {
   text-align: center;
   color: #303032;
@@ -164,7 +137,38 @@ th span {
   background-color: #f1f1f1;
 }
 /* FORM */
-
+.form-newsletter {
+  background-color: #eaeaec;
+  margin-block: 30px;
+  padding-block: 20px;
+  text-align: center;
+}
+.form-newsletter h4 {
+  text-align: center;
+  color: #303032;
+  font-variant: all-small-caps;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+#email {
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: dashed;
+  border-bottom-color: black;
+  padding: 5px;
+}
+button {
+  background-color: #376cbc;
+  color: white;
+  font-weight: bold;
+  border-width: 0;
+  padding: 5px;
+}
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+.Copyright-info {
+  background-image: linear-gradient(to bottom, #075269, #3c3e3d);
+  text-align: center;
+  color: #dceef2;
+}
