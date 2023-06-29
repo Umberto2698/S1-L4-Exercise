@@ -1,7 +1,34 @@
 /* IMPOSTAZIONI GENERALI */
-
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 /* HEADER */
+.header {
+  background-image: linear-gradient(to bottom right, #05a1c7, #006884);
+  text-align: center;
+  margin-inline: 20px;
+}
+#logo > img {
+  width: 150px;
+  padding-block: 20px;
+}
+h1 {
+  color: white;
+  font-variant: all-small-caps;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
 
+.Menù {
+  color: white;
+  padding-bottom: 20px;
+}
+.Menù > a {
+  color: white;
+  text-decoration: none;
+}
 /* MAIN */
 
 /* ELEMENTI NEL MAIN - ARTICLE */
