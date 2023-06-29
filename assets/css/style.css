@@ -73,6 +73,13 @@ li {
   color: #1090b7;
   font-weight: bold;
 }
+video {
+  margin-block: 10px;
+  border-radius: 20px;
+  display: block;
+  margin-inline: auto;
+  width: 400px;
+}
 /* TABELLE */
 .table-title {
   text-align: center;
