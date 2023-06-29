@@ -8,11 +8,16 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.sfondo {
+  background-image: url(../img/sfondo.png);
+}
 /* HEADER */
 .header {
   background-image: linear-gradient(to bottom right, #05a1c7, #006884);
   text-align: center;
   margin-inline: 20px;
+  box-shadow: 1px 2px 7px black;
+  margin-bottom: 30px;
 }
 #logo > img {
   width: 150px;
@@ -38,6 +43,9 @@ h1 {
   background-color: white;
   margin-inline: 20px;
   line-height: 25px;
+  padding-block: 30px;
+  padding-inline: 10px;
+  box-shadow: 1px 2px 7px black;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -90,6 +98,7 @@ video {
 .article {
   background-color: #eaeaec;
   margin-block: 10px;
+  margin-inline: 20px;
   border-width: 1px;
   border-style: solid;
   border-color: #cacaca;
@@ -116,6 +125,7 @@ table {
   border-bottom-color: #426dcc;
   border-bottom-style: solid;
   border-bottom-width: 2px;
+  width: 420px;
 }
 table thead {
   background-color: #426dcc;
@@ -130,6 +140,10 @@ th span {
   display: inline-block;
   vertical-align: bottom;
 }
+td {
+  text-align: center;
+  padding: 10px;
+}
 .gray {
   border-block-color: #dcdcdc;
   border-block-style: solid;
@@ -140,6 +154,7 @@ th span {
 .form-newsletter {
   background-color: #eaeaec;
   margin-block: 30px;
+  margin-inline: 20px;
   padding-block: 20px;
   text-align: center;
 }
@@ -171,9 +186,11 @@ button {
   background-image: linear-gradient(to bottom, #075269, #3c3e3d);
   text-align: center;
   margin-inline: 20px;
+  margin-bottom: 20px;
   line-height: 25px;
   color: #dceef2;
   padding-inline: 20px;
+  box-shadow: 1px 2px 7px black;
 }
 footer p {
   padding-top: 10px;
