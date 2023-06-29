@@ -10,139 +10,150 @@
     <title>Sviluppo di una pagina web - Blog EPICODE</title>
   </head>
   <body>
-    <div id="Logo">
-      <img src="./assets/img/logo.svg" />
-      <br />
-      <strong>Epicode - Il blog dei developers</strong>
-    </div>
-    <div class="Menù">
-      <a href="#">Home</a>
-      <a href="#">Articoli</a>
-      <a href="#">Lavora con noi</a>
-    </div>
-    <div class="post title">
-      <h2>Come creare un template per i post</h2>
-      <h4>di Mario Rossi - pubblicato il 25-10-2020</h4>
-    </div>
-    <div class="post content">
-      <p>
-        La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare a
-        tuttle le pagine
-      </p>
-      <p>Le varie aree saranno quindi suddivise in:</p>
-      <ul>
-        <li>Contenuti di intestazione del tag &lt;header&gt;</li>
-        <li>Contenuti centrali variabili del tag &lt;main&gt; (corpo principale)</li>
-        <li>Contenuti di fine pagina comuni, da inserire nel tag &lt;footer&gt;</li>
-      </ul>
-      <p>Formattazione del codice</p>
-      <p>
-        Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS. Perciò
-        i passi saranno:
-      </p>
-      <ol>
-        <li>Progettare il markup assegnando ad ogni specificop testo il tag appropriato</li>
-        <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
-        <li>Applicare gli stili CSS</li>
-      </ol>
-      <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
-      <table>
-        <p>Diffusione dei CSS</p>
-        <thead>
-          <tr>
-            <th>Anno</th>
-            <th>% di utilizzo</th>
-            <th>Supporto browser</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>2000</td>
-            <td>20%</td>
-            <td>17%</td>
-          </tr>
-          <tr>
-            <td>2002</td>
-            <td>35%</td>
-            <td>22%</td>
-          </tr>
-          <tr>
-            <td>2004</td>
-            <td>45%</td>
-            <td>42%</td>
-          </tr>
-          <tr>
-            <td>2008</td>
-            <td>80%</td>
-            <td>51%</td>
-          </tr>
-          <tr>
-            <td>2012</td>
-            <td>100%</td>
-            <td>76%</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>
-        Un test di validazione potrà essere fatto tramite il tool online
-        <a
-          href="https://unguess.io/?utm_term=website%20tester&utm_campaign=CROWDTESTING%20SEARCH%20CAMPAIGN&utm_source=adwords&utm_medium=ppc&hsa_acc=5274485135&hsa_cam=20017137272&hsa_grp=145586408862&hsa_ad=655867190769&hsa_src=g&hsa_tgt=kwd-297699507503&hsa_kw=website%20tester&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwkeqkBhAnEiwA5U-uMz4KMSEsFopY5HUm0I8vOiZJB9wdWAxeYvMgtGJUlcWvILf2w8f4IBoCpYEQAvD_BwE"
-          >unguess.io</a
-        >
-        dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati dei
-        veri developers come loro:
-        <br />
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/sFJLc7iP-1g"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-      </p>
-    </div>
-    <hr />
-    <div class="form newsletter">
-      <p>Vuoi rimanere aggiornato su altre novità edl blog? Iscriviti alla nostra newsletter:</p>
-      <form>
-        <label for="email">Inserisci l'email</label>
-        <input id="email" type="email" />
-        <br />
-        <label for="sub-btn">Iscriviti!</label>
-        <input id="sub-btn" type="submit" />
-      </form>
-    </div>
-    <hr />
-    <div class="area-correlati">
-      <h3>Articoli correlati</h3>
-      <div class="article">
-        <h4>Validare il codice HTML</h4>
-        <h5>Categoria: develop</h5>
-        <h5>Data: 18-9-2020</h5>
+    <div class="sfondo">
+      <div class="header">
+        <div id="Logo">
+          <img src="./assets/img/logo.svg" />
+          <h1>Epicode - Il blog dei developers</h1>
+        </div>
+        <div class="Menù">
+          <a href="#">Home</a>
+          <a href="#">Articoli</a>
+          <a href="#">Lavora con noi</a>
+        </div>
       </div>
-      <div class="article">
-        <h4>Correggere la sintassi</h4>
-        <h5>Categoria: develop</h5>
-        <h5>Data: 16-9-2020</h5>
+      <div class="main">
+        <div class="post title">
+          <h2>Come creare un template per i post</h2>
+          <h4>di Mario Rossi - pubblicato il 25-10-2020</h4>
+        </div>
+        <div class="post content">
+          <p>
+            La prima cosa da fare è suddividere in blocchi logici la pagina, identificando le parti comuni da applicare
+            a tuttle le pagine
+          </p>
+          <p>Le varie aree saranno quindi suddivise in:</p>
+          <ul>
+            <li>
+              Contenuti di intestazione del tag
+              <div class="box">&lt;header&gt;</div>
+            </li>
+            <li>
+              Contenuti centrali variabili del tag
+              <div class="box">&lt;main&gt;</div>
+              (corpo principale)
+            </li>
+            <li>
+              Contenuti di fine pagina comuni, da inserire nel tag
+              <div class="box">&lt;footer&gt;</div>
+            </li>
+          </ul>
+          <p>
+            Formattazione del codice <br />
+            Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da
+            <span>selezionare con i CSS</span>. Perciò i passi saranno:
+          </p>
+          <ol>
+            <li>Progettare il markup assegnando ad ogni specificop testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+          <table>
+            <p>Diffusione dei CSS</p>
+            <thead>
+              <tr>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+                <th>Supporto browser</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2000</td>
+                <td>20%</td>
+                <td>17%</td>
+              </tr>
+              <tr>
+                <td>2002</td>
+                <td>35%</td>
+                <td>22%</td>
+              </tr>
+              <tr>
+                <td>2004</td>
+                <td>45%</td>
+                <td>42%</td>
+              </tr>
+              <tr>
+                <td>2008</td>
+                <td>80%</td>
+                <td>51%</td>
+              </tr>
+              <tr>
+                <td>2012</td>
+                <td>100%</td>
+                <td>76%</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+            Un test di validazione potrà essere fatto tramite il
+            <a
+              href="https://unguess.io/?utm_term=website%20tester&utm_campaign=CROWDTESTING%20SEARCH%20CAMPAIGN&utm_source=adwords&utm_medium=ppc&hsa_acc=5274485135&hsa_cam=20017137272&hsa_grp=145586408862&hsa_ad=655867190769&hsa_src=g&hsa_tgt=kwd-297699507503&hsa_kw=website%20tester&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAjwkeqkBhAnEiwA5U-uMz4KMSEsFopY5HUm0I8vOiZJB9wdWAxeYvMgtGJUlcWvILf2w8f4IBoCpYEQAvD_BwE"
+              >tool online</a
+            >
+            dedicato allo scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro obiettivo ed essere stati
+            dei veri developers come loro:
+            <br />
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/sFJLc7iP-1g"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </p>
+        </div>
+        <div class="form newsletter">
+          <h4>novità</h4>
+          <p>Vuoi rimanere aggiornato su altre novità edl blog? Iscriviti alla nostra newsletter:</p>
+          <form>
+            <label for="email">Inserisci l'email</label>
+            <input id="email" type="email" />
+            <br />
+            <label for="sub-btn">Iscriviti!</label>
+            <input id="sub-btn" type="submit" />
+          </form>
+        </div>
+        <div class="area-correlati">
+          <h3>Articoli correlati</h3>
+          <div class="article">
+            <h4><a href="#">Validare il codice HTML</a></h4>
+            <h5>Categoria: develop</h5>
+            <h5>Data: 18-9-2020</h5>
+          </div>
+          <div class="article">
+            <h4><a href="#">Correggere la sintassi</a></h4>
+            <h5>Categoria: develop</h5>
+            <h5>Data: 16-9-2020</h5>
+          </div>
+          <div class="article">
+            <h4><a href="#">Meno Kb nella pagina</a></h4>
+            <h5>Categoria: ottimizzazione</h5>
+            <h5>Data: 30-9-2020</h5>
+          </div>
+        </div>
       </div>
-      <div class="article">
-        <h4>Meno Kb nella pagina</h4>
-        <h5>Categoria: ottimizzazione</h5>
-        <h5>Data: 30-9-2020</h5>
+      <div class="Copyright-info">
+        <footer>
+          Blog Epicode &copy;2021
+          <br />
+          Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
+          <a href="mailto:info@epicode.school">info@epicode.school </a>
+        </footer>
       </div>
-    </div>
-    <hr />
-    <div class="Copyright-info">
-      <footer>
-        Blog Epicode &copy; 2023
-        <br />
-        <br />
-        Testata online di Mario Rossi, registrata con prot. n.213/2018 - via Luigi Einaudi 2 - Milano. P.IVA 00112233.
-        <br />
-        <a href="mailto:info@epicode.school">info@epicode.school </a>
-      </footer>
     </div>
   </body>
 </html>
