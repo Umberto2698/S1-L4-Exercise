@@ -4,6 +4,10 @@
 *::after {
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
 /* HEADER */
 .header {
   background-image: linear-gradient(to bottom right, #05a1c7, #006884);
@@ -30,9 +34,41 @@ h1 {
   text-decoration: none;
 }
 /* MAIN */
+.main {
+  background-color: white;
+  margin-inline: 20px;
+  line-height: 25px;
+}
 
 /* ELEMENTI NEL MAIN - ARTICLE */
-
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-block: 20px;
+}
+.post-title > h4 {
+  color: #a0a1a3;
+}
+p {
+  margin-block: 15px;
+}
+p span {
+  color: #982c60;
+}
+ul,
+ol {
+  padding-left: 40px;
+}
+li {
+  padding-block: 3px;
+}
+.box {
+  border-width: 1px;
+  border-style: solid;
+  border-color: darkgray;
+  background-color: #dee2e5;
+  border-radius: 5px;
+}
 /* TABELLE */
 
 /* FORM */
