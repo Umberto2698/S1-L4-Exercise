@@ -170,5 +170,14 @@ button {
 .Copyright-info {
   background-image: linear-gradient(to bottom, #075269, #3c3e3d);
   text-align: center;
+  margin-inline: 20px;
+  line-height: 25px;
   color: #dceef2;
+  padding-inline: 20px;
+}
+footer p {
+  padding-top: 10px;
+}
+footer a {
+  color: #ff00fe;
 }
