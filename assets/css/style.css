@@ -89,7 +89,6 @@ video {
 .form-newsletter h4 {
   text-align: center;
   color: #303032;
-  font-size: bold;
   font-variant: all-small-caps;
   font-size: 40px;
   margin-bottom: 30px;
@@ -107,6 +106,31 @@ button {
   font-weight: bold;
   border-width: 0;
   padding: 5px;
+}
+.area-correlati h3 {
+  text-align: center;
+  color: #303032;
+  font-variant: all-small-caps;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.article {
+  background-color: #eaeaec;
+  margin-block: 10px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cacaca;
+  padding-left: 20px;
+  padding-block: 20px;
+}
+h4 a {
+  color: #1090b7;
+  font-weight: bold;
+}
+.date {
+  text-align: end;
+  padding-right: 20px;
+  padding-top: 10px;
 }
 /* TABELLE */
 .table-title {
