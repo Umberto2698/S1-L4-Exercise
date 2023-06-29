@@ -69,8 +69,41 @@ li {
   background-color: #dee2e5;
   border-radius: 5px;
 }
+.tool {
+  color: #1090b7;
+  font-weight: bold;
+}
 /* TABELLE */
-
+.table-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+table {
+  margin-inline: auto;
+  border-bottom-color: #426dcc;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+}
+table thead {
+  background-color: #426dcc;
+  color: white;
+  height: 50px;
+}
+th {
+  padding: 10px;
+  text-align: center;
+}
+th span {
+  display: inline-block;
+  vertical-align: bottom;
+}
+.gray {
+  border-block-color: #dcdcdc;
+  border-block-style: solid;
+  border-block-width: 1px;
+  background-color: #f1f1f1;
+}
 /* FORM */
 
 /* ELEMENTI NELL' ASIDE */
